@@ -1,0 +1,14 @@
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe.config
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.exe
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\bin\Debug\CalculatorApp.pdb
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csprojAssemblyReference.cache
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\MainWindow.g.cs
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\App.g.cs
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp_MarkupCompile.cache
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp_MarkupCompile.lref
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\MainWindow.baml
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.g.resources
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.Properties.Resources.resources
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.csproj.GenerateResource.cache
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.exe
+W:\CODES\C#\FINAL\CalculatorApp\CalculatorApp\obj\Debug\CalculatorApp.pdb

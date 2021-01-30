@@ -1,0 +1,47 @@
+﻿<Window x:Class="CalculatorApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculatorApp"
+        mc:Ignorable="d"
+        Icon="icon.ico"
+        Title="Calculator App" Height="386.4" Width="413.2"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid x:Name="Window" HorizontalAlignment="Left" Margin="0,0,-1.6,-4.2" Width="408" Background="#FF7D98A6" KeyDown="Window_KeyDown">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="370*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="Flbl1" Content="1st Number:" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top" Width="115" Height="35" FontSize="18" Grid.Column="1"/>
+        <Label x:Name="Slbl" Content="2nd Number:" HorizontalAlignment="Left" Margin="20,90,0,0" VerticalAlignment="Top" Width="115" Height="35" FontSize="18" Grid.Column="1"/>
+        <TextBox x:Name="ftb" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="135,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontSize="18" Background="LightGray"/>
+        <TextBox x:Name="stb" Grid.Column="1" HorizontalAlignment="Left" Height="30" Margin="135,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontSize="18" Background="LightGray"/>
+        <Button x:Name="pBTN" Content="+" HorizontalAlignment="Left" Margin="25,155,0,0" VerticalAlignment="Top" Width="55" Height="45" FontSize="24" FontWeight="Bold" Background="#FF000157" Foreground="White" BorderBrush="White" Click="pBTN_Click" Grid.Column="1" IsDefault="False"/>
+        <Button x:Name="mBTN" Content="-" Grid.Column="1" HorizontalAlignment="Left" Margin="125,155,0,0" VerticalAlignment="Top" Width="55" Height="45" FontWeight="Bold" FontSize="24" BorderBrush="White" Background="#FF000157" Foreground="White" Click="mBTN_Click" IsDefault="False"/>
+        <Button x:Name="muBTN" Content="X" Grid.Column="1" HorizontalAlignment="Left" Margin="225,155,0,0" VerticalAlignment="Top" Width="55" Background="#FF000157" BorderBrush="White" Foreground="White" Height="45" FontSize="24" Click="muBTN_Click" IsDefault="False"/>
+        <Button x:Name="dBTN" Content="/" Grid.Column="1" HorizontalAlignment="Left" Margin="325,155,0,0" VerticalAlignment="Top" Width="55" Background="#FF000157" BorderBrush="White" Foreground="White" Height="45" FontSize="24" Click="dBTN_Click" IsDefault="False"/>
+        <Label x:Name="rlbl" Content="Result:" HorizontalAlignment="Left" Margin="25,215,0,0" VerticalAlignment="Top" Width="65" Height="45" FontSize="18" Grid.Column="1"/>
+        <TextBox x:Name="rTB" HorizontalAlignment="Left" Height="35" Margin="90,215,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280" FontSize="18" IsReadOnly="True" Grid.Column="1" Background="LightGray"/>
+        <Button x:Name="ClearBTN" Content="CLEAR" Grid.Column="1" HorizontalAlignment="Left" Margin="145,271,0,0" VerticalAlignment="Top" Width="140" Height="34" Background="DarkRed" BorderBrush="Black" Foreground="White" FontSize="18" FontWeight="Bold" Click="ClearBTN_Click" IsDefault="False"/>
+        <Button x:Name="closeBTN" Grid.ColumnSpan="2" HorizontalAlignment="Right" Margin="0,2,18,0" VerticalAlignment="Top" Width="40" Height="33" Click="Button_Click_1" RenderTransformOrigin="0.5,0.5" Foreground="#00000000">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#00000000"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Image Height="28" Source="exit.png" Stretch="Fill" Width="37"/>
+        </Button>
+
+    </Grid>
+</Window>
